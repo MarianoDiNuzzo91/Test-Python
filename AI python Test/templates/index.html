@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserisci Videogame</title>
+</head>
+<body>
+    <h1>Inserisci un Nuovo Videogame</h1>
+    
+    <!-- Form per inviare i dati -->
+    <form action="/invia" method="POST">
+        <label for="genere">Genere (0 o 1):</label>
+        <input type="text" id="genere" name="genere" required><br><br>
+
+        <label for="anni">Anni:</label>
+        <input type="text" id="anni" name="anni" required><br><br>
+
+        <label for="videogame">Videogame:</label>
+        <input type="text" id="videogame" name="videogame" required><br><br>
+
+        <button type="submit">Invia</button>
+    </form>
+
+</body>
+</html>
